@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.75;
 }
 
@@ -338,7 +338,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 400;
 }
@@ -418,7 +418,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
 }
 
@@ -656,74 +656,76 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
-}
+/*section#contact {*/
+    /*background-color: #222;*/
+    /*background-image: url('{{ site.baseurl }}/img/map-image.png');*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
 
-section#contact .section-heading {
-    color: #fff;
-}
+/*section#contact .section-heading {*/
+    /*color: #000;*/
+/*}*/
 
-section#contact .form-group {
-    margin-bottom: 25px;
-}
+/*section#contact .form-group {*/
+    /*margin-bottom: 25px;*/
+/*}*/
 
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
+/*section#contact .form-group input,*/
+/*section#contact .form-group textarea {*/
+    /*padding: 20px;*/
+/*}*/
 
-section#contact .form-group input.form-control {
-    height: auto;
-}
+/*section#contact .form-group input.form-control {*/
+    /*height: auto;*/
+/*}*/
 
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
+/*section#contact .form-group textarea.form-control {*/
+    /*height: 236px;*/
+/*}*/
 
-section#contact .form-control:focus {
-    border-color: #{{ site.data.template.color.primary }};
-    box-shadow: none;
-}
+/*section#contact .form-control:focus {*/
+    /*border-color: #{{ site.data.template.color.primary }};*/
+    /*box-shadow: none;*/
+/*}*/
 
-section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #bbb;
-}
+/*section#contact::-webkit-input-placeholder {*/
+    /*text-transform: uppercase;*/
+    /*font-family: {{ site.data.template.font.primary }};*/
+    /*font-weight: 700;*/
+    /*color: #bbb;*/
+/*}*/
 
-section#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #bbb;
-}
+/*section#contact:-moz-placeholder {*/
+    /*text-transform: uppercase;*/
+    /*font-family: {{ site.data.template.font.primary }};*/
+    /*font-weight: 700;*/
+    /*color: #bbb;*/
+/*}*/
 
-section#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #bbb;
-}
+/*section#contact::-moz-placeholder {*/
+    /*text-transform: uppercase;*/
+    /*font-family: {{ site.data.template.font.primary }};*/
+    /*font-weight: 700;*/
+    /*color: #bbb;*/
+/*}*/
 
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #bbb;
-}
+/*section#contact:-ms-input-placeholder {*/
+    /*text-transform: uppercase;*/
+    /*font-family: {{ site.data.template.font.primary }};*/
+    /*font-weight: 700;*/
+    /*color: #bbb;*/
+/*}*/
 
-section#contact .text-danger {
-    color: #e74c3c;
-}
+/*section#contact .text-danger {*/
+    /*color: #e74c3c;*/
+/*}*/
 
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #222222;
+    color: #fff;
 }
 
 footer span.copyright {
@@ -865,3 +867,38 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+#about {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('img/about/seattle.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand > img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+}
+
+/*#pnwlogo {*/
+    /*width: auto;*/
+    /*height: 100px;*/
+/*}*/
+
+/*navbar-shrink > img {*/
+    /*width: auto;*/
+    /*height: 100%;*/
+/*}*/
