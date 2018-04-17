@@ -1,0 +1,28 @@
+url: https://pnw-automotive.github.io
+baseurl:
+
+# Site settings
+title: PNW Automotive
+email: carter.wickersham@outlook.com
+description: "A certified auto technician giving you honest and quality auto service at a fair price."
+
+
+# Team names, titles and social links
+people:
+- name: Carter Wickersham
+  pic: 1
+  position: Auto Technician
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://facebook.com/pnwauto
+
+# Postal address (add as many lines as necessary)
+#address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
